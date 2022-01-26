@@ -9,7 +9,7 @@ interface TeamBoxProps {
 }
 const TeamBox: FC<TeamBoxProps> = ({ team, index, historyIndex }) => (
   <div className={index % 2 !== 0 ? "team_box" : "team_box left_box"}>
-    <div className="team__name">Team #{team.name - 16}</div>
+    <div className="team__name">Team #{team.name}</div>
     <div className="team_goals_now">{team.goalHistory[historyIndex]}</div>
   </div>
 );
