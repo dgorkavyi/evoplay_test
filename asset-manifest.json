@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/evoplay_test/static/css/main.58c5b13d.css",
-    "main.js": "/evoplay_test/static/js/main.b5ec507e.js",
+    "main.js": "/evoplay_test/static/js/main.73298f53.js",
     "index.html": "/evoplay_test/index.html",
     "main.58c5b13d.css.map": "/evoplay_test/static/css/main.58c5b13d.css.map",
-    "main.b5ec507e.js.map": "/evoplay_test/static/js/main.b5ec507e.js.map"
+    "main.73298f53.js.map": "/evoplay_test/static/js/main.73298f53.js.map"
   },
   "entrypoints": [
     "static/css/main.58c5b13d.css",
-    "static/js/main.b5ec507e.js"
+    "static/js/main.73298f53.js"
   ]
 }
