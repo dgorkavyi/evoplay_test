@@ -38,7 +38,7 @@ const BestThree: FC<BestThreeProps> = ({ teams }) => {
     <div className="best_three">
       {teams.map((elem, index) => (
         <div className="best_one" key={`best_one_${index}`}>
-          <div className="team__name">Team #{elem.name - 16}</div>
+          <div className="team__name">Team #{elem.name}</div>
           <div className="team_goals_now">{elem.getGoals()}</div>
         </div>
       ))}
