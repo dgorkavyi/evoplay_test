@@ -1,38 +1,86 @@
 .App {
+  padding: 10px;
+  height: 100vh;
+  background: #111;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1, h2 {
+  margin: 20px 0;
+  font-style: italic;
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 0 0 4px white;
+}
+
+.tournament {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.match_box {
+  border-bottom: 4px solid #888;
+  padding: 10px;
+  margin: 6px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.team_box {
+  border-bottom: 2px solid #666;
+  padding: 10px;
+  min-width: 62px;
+  margin: 6px;
+}
+
+.team__name {
+  text-align: center;
+  font-weight: bold;
+}
+
+.team_goals_now {
+  padding: 4px;
+  border: 1px solid silver;
+  border-radius: 50px; 
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.left_box {
+  margin-left: 35px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.left_box:nth-child(1) {
+  margin-left: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.best_three {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 50px 0;
+  align-items: flex-end;
 }
 
-.App-link {
-  color: #61dafb;
+.best_one:nth-child(1) {
+  width: 200px;
+  font-size: 40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.best_one:nth-child(2) {
+  width: 140px;
+  font-size: 30px;
+}
+
+.best_one:nth-child(3) {
+  width: 100px;
+  font-size: 20px;
+}
+
+.best_one + .best_one {
+  margin-left: 50px;
 }
