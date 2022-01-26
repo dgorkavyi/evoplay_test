@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/evoplay_test/static/css/main.58c5b13d.css",
+    "main.js": "/evoplay_test/static/js/main.baa624be.js",
+    "index.html": "/evoplay_test/index.html",
+    "main.58c5b13d.css.map": "/evoplay_test/static/css/main.58c5b13d.css.map",
+    "main.baa624be.js.map": "/evoplay_test/static/js/main.baa624be.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58c5b13d.css",
+    "static/js/main.baa624be.js"
+  ]
+}
